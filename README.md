@@ -1,2 +1,1 @@
-# dotfiles
-Dot files (.file) for a number of things
+Configuration files for things.
