@@ -12,6 +12,9 @@ set shiftwidth=4
 set expandtab
 set autoindent
 
+" Airline config
+let g:airline_theme='bubblegum'
+let g:airline_powerline_fonts=1
 
 let &t_SI = "\e[6 q"
 let &t_EI = "\e[2 q"
@@ -26,4 +29,5 @@ augroup myCmds
 au!
 autocmd VimEnter * silent !echo -ne "\e[2 q"
 autocmd InsertLeave * silent !echo -ne "\e[2 q"
+autocmd BufWritePost *html !./py.sh <afile>
 augroup END

@@ -1,0 +1,4 @@
+Xft.dpi: 154
+Sxiv.foreground: #bbbbbb
+Sxiv.background: #444444
+Sxiv.font: "Fira Code Medium:pixelsize=26:antialias=true:autohint=true"

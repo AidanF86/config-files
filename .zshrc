@@ -1,8 +1,12 @@
 # Aidan Foley's zsh config
 
 export EDITOR=vim
+export TERMINAL="st"
+export BROWSER="firefox"
 export XDG_CONFIG_HOME=$HOME/.config
 export PATH=/usr/scripts:$PATH
+
+export NNN_FIFO=/tmp/nnn.fifo
 
 # Enable colors and change prompt:
 autoload -U colors && colors
